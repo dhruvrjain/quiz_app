@@ -11,7 +11,7 @@ var questions = [
   ),
   const QuesAns(
     'Which of the following is the most demanding technology among professionals ?',
-    ['React', 'JavaScript', 'Flutter', 'TypeScript'],
+    ['React', 'JavaScript', 'Flutter'],
   ),
   const QuesAns(
     'Which is the most commonly used Data Structure ?',
@@ -19,10 +19,10 @@ var questions = [
   ),
   const QuesAns(
     'Which among the following languages has the simplest structure ?',
-    ['Python', 'Java', 'C++', 'Assembly'],
+    ['Python', 'Java', 'C++'],
   ),
   const QuesAns(
-    'Which among these is the best platform for networking professionally ?',
-    ['LinkedIn', 'Instagram', 'Facebook', 'Whatsapp'],
+    'State the trueness of the statement: "React does not support state management"',
+    ['False', 'True'],
   ),
 ];
