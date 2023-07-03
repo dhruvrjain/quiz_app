@@ -25,7 +25,7 @@ git clone https://github.com/dhruvrjain/quiz_app.git
 cd quiz_app
 ```
 
-3. Ensure you have Flutter and Dart installed on your machine. If not, please follow the official Flutter installation guide: [Flutter Install](https://flutter.dev/docs/get-started/install).
+3. Ensure you have Flutter and Dart installed on your machine. If not, please follow the official Flutter installation guide: [Flutter Install](https://flutter.dev/docs/get-started/install "Flutter installation guide").
 
 4. Run the following command to get the required dependencies:
 
@@ -44,12 +44,11 @@ flutter run
 ## Usage
 
 1. Launch the Quiz App on your device or emulator.
-2. You will be presented with a series of questions related to Flutter.
+2. You will be presented with a series of questions related to Flutter and other technologies.
 3. Select your answer by tapping on the desired option.
-4. The app will immediately provide feedback on whether your answer was correct or incorrect.
-5. Continue answering questions until you complete the quiz.
-6. After completing the quiz, you will see your score, the number of correct and incorrect answers, and a summary of the questions.
-7. To restart the quiz, simply tap the "Restart Quiz" button.
+4. Continue answering questions until you complete the quiz.
+5. After completing the quiz, you will see your score, the number of correct and incorrect answers, and a summary of the questions.
+6. To restart the quiz, simply tap the "Restart Quiz" button.
 
 ## Contributing
 
