@@ -52,6 +52,47 @@ class ResultScreen extends StatelessWidget {
             const SizedBox(
               height: 35,
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                const CircleAvatar(
+                  radius: 10,
+                  backgroundColor: Color.fromARGB(255, 233, 30, 216),
+                ),
+                const SizedBox(
+                  width: 15,
+                ),
+                Expanded(
+                  child: Text(
+                    'Wrong Answer',
+                    style: GoogleFonts.poppins(
+                      color: Colors.white,
+                    ),
+                  ),
+                ),
+                const SizedBox(
+                  width: 50,
+                ),
+                const CircleAvatar(
+                  radius: 10,
+                  backgroundColor: Colors.cyan,
+                ),
+                const SizedBox(
+                  width: 15,
+                ),
+                Expanded(
+                  child: Text(
+                    'Correct Answer',
+                    style: GoogleFonts.poppins(
+                      color: Colors.white,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(
+              height: 30,
+            ),
             TextButton.icon(
               onPressed: restart,
               icon: const Icon(Icons.arrow_right_alt),
