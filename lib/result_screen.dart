@@ -95,7 +95,7 @@ class ResultScreen extends StatelessWidget {
             ),
             TextButton.icon(
               onPressed: restart,
-              icon: const Icon(Icons.arrow_right_alt),
+              icon: const Icon(Icons.rotate_right),
               label: const Text('Restart Quiz'),
               style: TextButton.styleFrom(
                 foregroundColor: Colors.white,
